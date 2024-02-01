@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+        
+   /* #header{
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        position: absolute;
+    }
+    .hed-div{
+        width: 100%;
+        height: 150px;
+        background-color: rgb(12, 197, 105);
+    }
+    .line-div{
+        width: 100%;
+        height: 150px;
+        background-color: white;
+
+    }
+    .person1{
+        width: 120px;
+        height: 120px;
+        background-color: aqua;
+        position: relative;
+        margin-top: 2%;
+        border-radius: 50%;
+        margin-left: 1px;
+        float: left;
+    }
+    .person2{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(23, 24, 24);
+        position: relative;
+        margin-top: 2%;
+        border-radius: 50%;
+        margin-left: 1px;
+        float: left;
+    }
+    .person3{
+        width: 120px;
+        height: 120px;
+        background-color: aqua;
+        position: relative;
+        margin-top: 2%;
+        border-radius: 50%;
+        margin-left: 1px;
+        float: left;
+    }
+    .person4{
+        width: 120px;
+        height: 120px;
+        background-color: aqua;
+        position: relative;
+        margin-top: 2%;
+        border-radius: 50%;
+        margin-left: 1px;
+        float: left;
+    }
+    .person5{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(109, 116, 116);
+        position: relative;
+        margin-top: 2%;
+        border-radius: 50%;
+        margin-left: 1px;
+        float: left;
+    }
+    .person6{
+        width: 120px;
+        height: 120px;
+        background-color: aqua;
+        position: relative;
+        margin-top: 2%;
+        border-radius: 50%;
+        margin-left: 1px;
+        float: left;
+    }
+    .person7{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(179, 20, 139);
+        position: relative;
+        margin-top: 2%;
+        border-radius: 50%;
+        margin-left: 1px;
+        float: left;
+    }
+    .person8{
+        width: 120px;
+        height: 120px;
+        background-color: aqua;
+        position: relative;
+        margin-top: 2%;
+        border-radius: 50%;
+        margin-left: 1px;
+        float: left;
+    }
+
+    
+    .person1div{
+        width: 100%;
+        height: 100%;
+        background-color: brown;
+        margin-top: 1px;
+        position: absolute;
+    }
+    .bar{
+        width: 100%;
+        height: 150px;
+        background-color: antiquewhite;
+    
+        position: absolute;
+    }
+    .person1img{
+        width: 120px;
+        height: 120px;
+        margin-top: 3%;
+        position: relative;
+        border-radius: 50%;
+    }
+    .let{
+        float: left;
+        margin-left: 15%;
+        margin-top: -13%;
+
+        position: absolute;
+    }
+    .inputdiv{
+        width: 100%;
+        height: 5%;
+        background-color: aqua;
+        margin-top: 129%;
+    }
+    .person1input{
+       width: 75%;
+       height: 85%;
+       float: left;
+       margin-left: 5%;
+       
+    }
+    .in-btn{
+        width: 15%;
+        height: 85%;
+    }
+    #cls{
+        width: 5%;
+        height: 5%;
+        font-size: 100;
+        margin-left: 90%;
+        margin-top: -10%;
+    }*/
+
+
+#header{
+    width: 35%;
+    height: 100%;
+    background-color: whitesmoke;
+    float: left;
+    position: absolute;
+}
+.line-div{
+    width: 100%;
+    height: 11%;
+}
+.person1{
+    width: 15%;
+    height: 80%;
+    background-color: aqua;
+    position: relative;
+    margin-top: 2%;
+    border-radius: 50%;
+    margin-left: 1%;
+    float: left;
+}
+.person2{
+    width: 15%;
+    height: 80%;
+    background-color: rgb(23, 24, 24);
+    position: relative;
+    margin-top: 2%;
+    border-radius: 50%;
+    margin-left: 1%;
+    float: left;
+}
+.person3{
+    width: 15%;
+    height: 80%;
+    background-color: aqua;
+    position: relative;
+    margin-top: 2%;
+    border-radius: 50%;
+    margin-left: 1%;
+    float: left;
+}
+.person4{
+    width: 15%;
+    height: 80%;
+    background-color: aqua;
+    position: relative;
+    margin-top: 2%;
+    border-radius: 50%;
+    margin-left: 1%;
+    float: left;
+}
+.person5{
+    width: 15%;
+    height: 80%;
+    background-color: rgb(109, 116, 116);
+    position: relative;
+    margin-top: 2%;
+    border-radius: 50%;
+    margin-left: 1%;
+    float: left;
+}
+.person6{
+    width: 15%;
+    height: 80%;
+    background-color: aqua;
+    position: relative;
+    margin-top: 2%;
+    border-radius: 50%;
+    margin-left: 1%;
+    float: left;
+}
+.person7{
+    width: 15%;
+    height: 80%;
+    background-color: rgb(179, 20, 139);
+    position: relative;
+    margin-top: 2%;
+    border-radius: 50%;
+    margin-left: 1%;
+    float: left;
+}
+.person8{
+    width: 15%;
+    height: 80%;
+    background-color: aqua;
+    position: relative;
+    margin-top: 2%;
+    border-radius: 50%;
+    margin-left: 1%;
+    float: left;
+}
+.person1div{
+    width: 888px;
+    height: 103%;
+    background-color: rgb(72, 77, 74);
+    float: left;
+    margin-left: 32%;
+    position: absolute;
+    margin-top: -1%;
+}
+.person1img{
+    width: 5%;
+    height: 100%;
+    background-color:red;
+    margin-left: 2%;
+    border-radius: 50%;
+    float: left;
+}
+.person1input{
+    width: 94%;
+    height: 100%;
+    border: 1px solid black;
+    margin:auto 0;
+    border-radius: 5px;
+    float: left;
+}
+.inputdiv{
+    width: 75%;
+    height: 5%;
+    float: left;
+    margin-left: 10%;
+    bottom: 5px;
+    background-color:transparent;
+    position: absolute;
+}
+.in-btn{
+    float: left;width: 6%;height: 100%;
+}
+#cls{
+    margin-left: 95%;
+    margin-top: -4%;
+    float: left;
+    position: absolute;
+}
+.bar{
+    width: 100%;
+    height: 5%;
+    background-color: antiquewhite;
+}
+.hed-div{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(26, 163, 99);
+}
+h3{
+    font-size: 25;
+}
+.heading{
+    float: left;margin-left: 3%;
+
+}
+.heading1{
+    float: left;margin-left: 15%;
+}
+.heading2{
+    float: left;margin-left: 15%;
+}
+

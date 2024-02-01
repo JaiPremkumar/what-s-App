@@ -1,0 +1,201 @@
+<!DOCTYPE >
+<html>
+    <head>
+<title>what's APP</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-3  container-fluid" id="header" >
+                <div class="hed-div" >
+                    <h3 class="heading" >Chats</h3>
+                    <h3 class="heading1" >Status</h3>
+                    <h3 class="heading2">Calls</h3>
+                </div>
+                <div class="line-div " onclick="person1()">
+                    <div class="person1"  >
+                    <img src="baby.png" style="width: 100%;height: 100%;border-radius: 50%;">
+                    </div>
+                    <h3 style="float: left;margin-left: 5%;padding-top: 10px;"  >person1</h3>
+                </div>
+                
+                <div class="line-div"  onclick="person2()">
+                    <div  class="person2"></div>
+                    <h3 style="float: left;margin-left: 5%;padding-top: 10px;">person2</h3>
+                </div>
+                <div class="line-div" onclick="person3()">
+                    <div  class="person3">
+                    <img src="shark.jpg" style="width: 100%;height: 100%;border-radius: 50%;">
+                    </div>
+                    <h3 style="float: left;margin-left: 5%;padding-top: 10px;">person3</h3>
+                </div>
+                <div class="line-div"  onclick="person4()">
+                    <div  class="person4" ></div>
+                    <h3 style="float: left;margin-left: 5%;padding-top: 10px;">person4</h3>
+                </div>
+                <div class="line-div"  onclick="person5()">
+                    <div  class="person5" ></div>
+                    <h3 style="float: left;margin-left: 5%;padding-top: 10px;">person5</h3>
+                </div>
+                <div class="line-div" onclick="person6()">
+                    <div  class="person6">
+                    <img src="Tiger-1.jpg" style="width: 100%;height: 100%;border-radius: 50%;">
+                    </div>
+                    <h3 style="float: left;margin-left: 5%;padding-top: 10px;">person6</h3>
+                </div>
+                <div class="line-div"  onclick="person7()">
+                    <div  class="person7"></div>
+                    <h3 style="float: left;margin-left: 5%;padding-top: 10px;">person7</h3>
+                </div>
+                <div class="line-div"  onclick="person8()">
+                    <div  class="person8" >
+                    <img src="images.jpg" style="width: 100%;height: 100%;border-radius: 50%;">
+                    </div>
+                    <h3 style="float: left;margin-left: 5%;padding-top: 10px;">person8</h3>
+                </div>
+            </div>
+             <div class="col-lg-9 col-md-8 m-3">
+           
+            <div class="person1div" id="mydiv1"   >
+                <div class="bar">
+                    <div class="person1img" >
+                        <img src="baby.png" style="width: 100%;height: 100%;border-radius: 50%;">
+                    </div>
+                    <h3 class="let">person1</h3>
+                    <button type="button" class="btn-close" id="cls" aria-label="Close" onclick="close1()"></button>
+                
+                </div>
+               
+                <div class="inputdiv" >
+                <input type="text" class="person1input" id="textipt" >
+                <button  class="in-btn" onclick="send()">send</button>
+            </div >
+          
+            </div>
+            
+            <div class="person1div" id="mydiv2"   >
+                <div class="bar" >
+                    <div class="person1img" style=" background-color: rgb(23, 24, 24);" >
+                       
+                    </div>
+                    <h3 class="let">person2</h3>
+                    <button type="button" class="btn-close" id="cls" aria-label="Close" onclick="close2()"></button>
+                </div>
+               
+                <div class="inputdiv" >
+                <input type="text" class="person1input" id="textipt1" >
+                <button  class="in-btn" onclick="send1()">send</button>
+            </div >
+          
+            </div>
+
+           
+            <div class="person1div" id="mydiv3"  >
+                <div class="bar">
+                    <div class="person1img" >
+                        <img src="shark.jpg" style="width: 100%;height: 100%;border-radius: 50%;">
+                    </div>
+                    <h3 class="let">person3</h3>
+                    <button type="button" class="btn-close" id="cls" aria-label="Close" onclick="close3()"></button>
+                </div>
+               
+                <div class="inputdiv" >
+                <input type="text" class="person1input" id="textipt2" >
+                <button class="in-btn"  onclick="send2()">send</button>
+            </div >
+          
+            </div>
+
+        
+            <div class="person1div" id="mydiv4"   >
+                <div class="bar">
+                    <div class="person1img" style="background-color: aqua;" >
+                       
+                    </div>
+                    <h3 class="let">person4</h3>
+                    <button type="button" class="btn-close" id="cls" aria-label="Close" onclick="close4()"></button>
+                </div>
+               
+                <div class="inputdiv" >
+                <input type="text" class="person1input" id="textipt3" >
+                <button  class="in-btn" onclick="send3()">send</button>
+            </div >
+          
+            </div>
+
+            
+            <div class="person1div" id="mydiv5"   >
+                <div class="bar">
+                    <div class="person1img" style="background-color:  rgb(109, 116, 116);">
+                       
+                    </div>
+                    <h3 class="let">person5</h3>
+                    <button type="button" class="btn-close" id="cls" aria-label="Close" onclick="close5()"></button>
+                </div>
+               
+                <div class="inputdiv" >
+                <input type="text" class="person1input" id="textipt4" >
+                <button  class="in-btn" onclick="send4()">send</button>
+            </div >
+          
+            </div>
+        
+            <div class="person1div"  id="mydiv6" >
+                <div class="bar">
+                    <div class="person1img" >
+                        <img src="Tiger-1.jpg" style="width: 100%;height: 100%;border-radius: 50%;">
+                    </div>
+                    <h3 class="let">person6</h3>
+                    <button type="button" class="btn-close" id="cls" aria-label="Close" onclick="close6()"></button>
+                </div>
+               
+                <div class="inputdiv" >
+                <input type="text" class="person1input" id="textipt5" >
+                <button  class="in-btn" onclick="send5()">send</button>
+            </div >
+          
+            </div>
+            
+            <div class="person1div" id="mydiv7" >
+                <div class="bar">
+                    <div class="person1img" style="background-color:  rgb(179, 20, 139);;" >
+                      
+                    </div>
+                    <h3 class="let">person7</h3>
+                    <button type="button" class="btn-close" id="cls" aria-label="Close" onclick="close7()"></button>
+                </div>
+               
+                <div class="inputdiv" >
+                <input type="text" class="person1input" id="textipt6" >
+                <button  class="in-btn" onclick="send6()">send</button>
+            </div >
+          
+            </div>
+            
+            <div class="person1div" id="mydiv8" >
+                <div class="bar">
+                    <div class="person1img" >
+                        <img src="images.jpg" style="width: 100%;height: 100%;border-radius: 50%;">
+                    </div>
+                    <h3 class="let">person8</h3>
+                    <button type="button" class="btn-close" id="cls" aria-label="Close" onclick="close8()"></button>
+                </div>
+               
+                <div class="inputdiv" >
+                <input type="text" class="person1input" id="textipt7" >
+                <button  class="in-btn" onclick="send7()">send</button>
+            </div >
+          
+            </div>
+            </div>
+        </div>
+
+      </div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>
